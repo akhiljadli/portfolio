@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Akhil Jadli</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/resume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Fallback styles in case external CSS fails to load */
+        :root {
+            --primary-color: #2a2a2a;
+            --secondary-color: #1a1a1a;
+            --accent-color: #00ff88;
+            --text-color: #ffffff;
+            --text-secondary: #b3b3b3;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume-page {
+            min-height: 100vh;
+            padding: 6rem 2rem 2rem;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        }
+
+        .resume-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            gap: 2rem;
+            background: rgba(26, 26, 26, 0.5);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(0, 255, 136, 0.1);
+            overflow: hidden;
+            min-height: calc(100vh - 8rem);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">Akhil Jadli</div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/resume" class="active">Resume</a></li>
+            <li><a href="/work">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Resume Page -->
+    <main class="resume-page">
+        <div class="resume-container">
+            <!-- Left Sidebar -->
+            <aside class="resume-sidebar">
+                <ul class="resume-nav">
+                    <li><a href="#education" class="active" data-section="education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#experience" data-section="experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                    <li><a href="#skills" data-section="skills"><i class="fas fa-code"></i> Skills</a></li>
+                    <li><a href="#awards" data-section="awards"><i class="fas fa-trophy"></i> Awards</a></li>
+                </ul>
+            </aside>
+
+            <!-- Main Content -->
+            <div class="resume-content">
+                <!-- Education Section -->
+                <section id="education" class="resume-section">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Bachelor of Technology</h3>
+                                <h4>Computer Science</h4>
+                                <p class="timeline-date">2022 - 2026</p>
+                                <p class="timeline-location">Graphic Era Hill University</p>
+                                <p class="timeline-description">
+                                    Relevant coursework in Web Development, Data Structures, Algorithms, and Database Management.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>High School Diploma</h3>
+                                <h4>Science Stream</h4>
+                                <p class="timeline-date">2020 - 2022</p>
+                                <p class="timeline-location">Adarsh Vidhya Niketan
+                                </p>
+                                <p class="timeline-description">
+                                    Focused on Mathematics and Computer Science. Participated in various coding competitions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section id="experience" class="resume-section" style="display: none;">
+                    <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>Frontend Developer Intern</h3>
+                                <h4>Cognifyz Technology Solutions</h4>
+                                <p class="timeline-date">August 2024 - October 2024</p>
+                                <p class="timeline-location">Remote Internship</p>
+                                <p class="timeline-description">
+                                    Created responsive web interfaces and implemented modern UI/UX practices.
+                                    Collaborated with design team to improve user experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Skills Section -->
+                <section id="skills" class="resume-section" style="display: none;">
+                    <h2><i class="fas fa-code"></i> Skills</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3>Frontend Development</h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <span class="skill-name">HTML5</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">CSS3</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">React</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="80"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Backend Development</h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <span class="skill-name">Node.js</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Express.js</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="80"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">MongoDB</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="75"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">SQL</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="70"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tools & Others</h3>
+                            <div class="skill-items">
+                                <div class="skill-item">
+                                    <span class="skill-name">Git</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Docker</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="75"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">AWS</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="70"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">CI/CD</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-bar-fill" data-percentage="65"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Awards Section -->
+                <section id="awards" class="resume-section" style="display: none;">
+                    <h2><i class="fas fa-trophy"></i> Awards</h2>
+                    <div class="awards-grid">
+                        
+                        <div class="award-item">
+                            <div class="award-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="award-content">
+                                <h3>Hacktoberfest 2024 Participant</h3>
+                                <p class="award-date">OpenSource CodeFest 2024</p>
+                                <p class="award-description">
+                                    Got a chance to contribute to OpenSource Projects.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="award-item">
+                            <div class="award-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="award-content">
+                                <h3>HackOn Participant</h3>
+                                <p class="award-date">Hackon By amazone season 5</p>
+                                <p class="award-description">
+                                    Presented a idia for the amazone Web development challenge.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="/js/main.js"></script>
+    <script src="/js/resume.js"></script>
+</body>
+</html> 

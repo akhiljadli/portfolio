@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Akhil Jadli</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/work.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-brand">Akhil Jadli</div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/resume">Resume</a></li>
+            <li><a href="/work" class="active">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Work Page -->
+    <main class="work-page">
+        <div class="work-container">
+            <!-- Featured Project -->
+            <section class="featured-project">
+                <h2>Featured Project</h2>
+                <div class="featured-content">
+                    <div class="featured-image">
+                        <img src="/images/featured-project.jpg" alt="Featured Project">
+                    </div>
+                    <div class="featured-details">
+                        <h3>E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A full-stack e-commerce platform built with React, Node.js, and MongoDB.
+                            Features include user authentication, product management, shopping cart,
+                            and payment integration.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Categories -->
+            <section class="project-categories">
+                <h2>Project Categories</h2>
+                <div class="category-filters">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="web">Web Development</button>
+                    <button class="category-btn" data-category="mobile">Mobile Apps</button>
+                    <button class="category-btn" data-category="design">UI/UX Design</button>
+                </div>
+            </section>
+
+            <!-- Projects Grid -->
+            <section class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="/images/project1.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management application with real-time updates.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Material UI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="/images/project2.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Tracker</h3>
+                        <p>A mobile app for tracking workouts and nutrition with progress analytics.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="/images/project3.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A modern portfolio website with smooth animations and responsive design.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="/images/project4.jpg" alt="Project 4">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="btn btn-secondary"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Blog Platform</h3>
+                        <p>A full-featured blog platform with markdown support and comments.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="/js/main.js"></script>
+    <script src="/js/work.js"></script>
+</body>
+</html> 
