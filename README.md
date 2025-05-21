@@ -5,19 +5,19 @@ A modern, responsive portfolio website showcasing my work, skills, and experienc
 👉 **[View Portfolio Website](https://eportfolio-7prux7huz-akhil-jadlis-projects.vercel.app/)**
 
 ✨ Features
-Responsive design
-Modern UI with smooth animations
-Interactive project showcase
-Contact form
-Resume section
-About me section
+1. Responsive design
+2. Modern UI with smooth animations
+3. Interactive project showcase
+4. Contact form
+5. Resume section
+6. About me section
 
 🛠 Tech Stack
-HTML5
-CSS3
-JavaScript
-Node.js
-Express.js
+1. HTML5
+2. CSS3
+3. JavaScript
+4. Node.js
+5. Express.js
 
 🚀 Local Development
 
